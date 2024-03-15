@@ -1,0 +1,16 @@
+npm install react-router-dom
+
+1. 웹 애플리케이션에서 라우팅이라는 개념은 사용자가 요청한 URL에 따라 알맞는 페이지를 보여주는 것을 의미한다.
+ 1) MPA(Multi Page Application) :  view처리를 backend server에서 한다.
+ 2) SPA(Sing Page Application) : view처리를 frontend server에서 한다.
+
+2. Link 컴포넌트를 사용하여 다른 페이지로 이동하는 링크를 보여주는데 CSS클래스는 적용할 수 없다.
+
+3. NavLink 컴포넌트는 링크에서 사용하는 경로가 현재 라우트의 경로와 일치하는 경우 특정 스타일 또는 CSS 클래스를 적용하는 컴포넌트이다.
+
+4. 사용자의 브라우저 주소 경로에 따라 우리가 원하는 컴포넌트를 보여주기 위해서 Route 라는 컴포넌트를 통해 라우트 설정해야 한다.
+
+5. Route 컴포넌트는 Routes 컴포넌트 내부에서 사용되어야 한다.
+   <Routes>
+     <Route path="요청한 주소" element={보여 줄 컴포넌트 JSX} />
+   </Routes
